@@ -32,19 +32,19 @@ date:2021/03~2021/06
 
 ​	|-- ros_astra_launch // 深度相机运行包
 
-​    |-- slam_package // SLAM功能包
+​   |-- slam_package // SLAM功能包
 
 ​	|-- teleop // 键盘控制ROS包
 
 ​	|-- velocity_control_package // 速度控制ROS包
 
-​	|-- wpb_cv // 启智CV机器人驱动包
+​	|-- wpb_cv // 核心驱动包
 
 ​		|-- wpb_cv_bringup // 核心功能包，包括pc和底盘控制器的通信实现
 
 ​		|-- wpb_cv_local_planner // 自定义ROS导航局部规划器
 
-​		|-- wpb_cv_tutorials // 官方例程
+​		|-- wpb_cv_tutorials // 例程
 
 
 
