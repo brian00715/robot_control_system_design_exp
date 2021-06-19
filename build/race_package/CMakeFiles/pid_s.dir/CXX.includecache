@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/simon/catkin_ws/src/race_package/include/pid_s.h
+
+/home/simon/catkin_ws/src/race_package/src/pid_s.cpp
+../include/pid_s.h
+/home/simon/catkin_ws/src/race_package/include/pid_s.h
+

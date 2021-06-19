@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/simon/catkin_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/simon/catkin_ws/src/ros_astra_camera/include/**",
+        "/home/simon/catkin_ws/src/camera_package/include/**",
+        "/home/simon/catkin_ws/src/motor_control_package/include/**",
+        "/home/simon/catkin_ws/src/race_package/include/**",
+        "/home/simon/catkin_ws/src/rf2o_laser_odometry/include/**",
+        "/home/simon/catkin_ws/src/teleop/include/**",
+        "/home/simon/catkin_ws/src/velocity_control_package/include/**",
+        "/home/simon/catkin_ws/src/wpb_cv/wpb_cv_bringup/include/**",
+        "/home/simon/catkin_ws/src/wpb_cv/wpb_cv_local_planner/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,8 @@
+prefix=/home/simon/catkin_ws/install
+
+Name: mecnum_control_package
+Description: Description of mecnum_control_package
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

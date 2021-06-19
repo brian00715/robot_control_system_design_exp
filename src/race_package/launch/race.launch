@@ -1,0 +1,18 @@
+<launch>
+
+<!-- minimal core -->
+ <include file="$(find wpb_cv_bringup)/launch/minimal.launch"/> 
+
+<!-- astra camera -->
+<include file="$(find astra_launch)/launch/astra.launch"/>
+
+<!-- reconfig some params -->
+ <node pkg="race_package" type="reconfig.py" name="reconfig_py"  output="screen"/>
+
+ <!-- rf2o -->
+ <!--<include file="$(find rf2o_laser_odometry)/launch/rf2o_laser_odometry.launch"/> -->
+
+<!-- race package -->
+ <node pkg="race_package" type="race" name="race"  output="screen"/>
+
+</launch>

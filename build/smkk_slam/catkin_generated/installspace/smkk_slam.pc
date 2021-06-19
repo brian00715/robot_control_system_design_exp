@@ -1,0 +1,8 @@
+prefix=/home/simon/catkin_ws/install
+
+Name: smkk_slam
+Description: Description of smkk_slam
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

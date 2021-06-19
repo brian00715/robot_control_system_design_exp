@@ -1,0 +1,46 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/opt/ros/indigo/include/**",
+                    "/home/robot/catkin_ws/src/ad_sensor_package/include/**",
+                    "/home/robot/catkin_ws/src/camera_package/include/**",
+                    "/home/robot/catkin_ws/src/mecnum_control_package/include/**",
+                    "/home/robot/catkin_ws/src/motor_control_package/include/**",
+                    "/home/robot/catkin_ws/src/omni_control_package/include/**",
+                    "/home/robot/catkin_ws/src/race_package/include/**",
+                    "/home/robot/catkin_ws/src/smkk_slam/include/**",
+                    "/home/robot/catkin_ws/src/teleop/include/**",
+                    "/home/robot/catkin_ws/src/velocity_control_package/include/**",
+                    "/home/robot/catkin_ws/src/wpb_cv/wpb_cv_bringup/include/**",
+                    "/home/robot/catkin_ws/src/wpb_cv/wpb_cv_local_planner/include/**",
+                    "/usr/include/**"
+                ]
+            },
+            "includePath": [
+                "/opt/ros/indigo/include/**",
+                "/home/robot/catkin_ws/src/ad_sensor_package/include/**",
+                "/home/robot/catkin_ws/src/camera_package/include/**",
+                "/home/robot/catkin_ws/src/mecnum_control_package/include/**",
+                "/home/robot/catkin_ws/src/motor_control_package/include/**",
+                "/home/robot/catkin_ws/src/omni_control_package/include/**",
+                "/home/robot/catkin_ws/src/race_package/include/**",
+                "/home/robot/catkin_ws/src/smkk_slam/include/**",
+                "/home/robot/catkin_ws/src/teleop/include/**",
+                "/home/robot/catkin_ws/src/velocity_control_package/include/**",
+                "/home/robot/catkin_ws/src/wpb_cv/wpb_cv_bringup/include/**",
+                "/home/robot/catkin_ws/src/wpb_cv/wpb_cv_local_planner/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "windows-msvc-x64",
+            "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.28.29333/bin/Hostx64/x64/cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

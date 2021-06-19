@@ -1,0 +1,83 @@
+   
+   ## in function <Cam_RGB_Callback>
+   /*
+    //遍历二值化后的图像数据
+    int nTargetX = 0;
+    int nTargetY = 0;
+    int nPixCount = 0;
+    int nImgWidth = imgThresByHSV.cols;
+    int nImgHeight = imgThresByHSV.rows;
+    int nImgChannels = imgThresByHSV.channels();
+    // printf("横向宽度= %d   纵向高度= %d \n", nImgWidth, nImgHeight);
+    for (int y = 0; y < nImgHeight; y++)
+    {
+        for (int x = 0; x < nImgWidth; x++)
+        {
+            //printf("%d  ",imgThresByHSV.data[y*nImgWidth + x]);
+            if (imgThresByHSV.data[y * nImgWidth + x] == 255)
+            {
+                nTargetX += x;
+                nTargetY += y;
+                nPixCount++;
+            }
+        }
+    }
+    if (nPixCount > 0)
+    {
+        findBallOK = 1;
+        nTargetX /= nPixCount;
+        nTargetY /= nPixCount;
+        // nTargetY /= nPixCount;
+        // printf("颜色质心坐标( %d , %d )  点数 = %d\n", nTargetX, nTargetY, nPixCount);
+        // 画坐标
+        Point line_begin = Point(nTargetX - 10, nTargetY);
+        Point line_end = Point(nTargetX + 10, nTargetY);
+        line(imgOriginal, line_begin, line_end, Scalar(255, 0, 0), 3); // 画十字
+        line_begin.x = nTargetX;
+        line_begin.y = nTargetY - 10;
+        line_end.x = nTargetX;
+        line_end.y = nTargetY + 10;
+        line(imgOriginal, line_begin, line_end, Scalar(255, 0, 0), 3);
+        // 图像大小640x480(30hz) 320x240(60hz)
+        float delta_x = nTargetX - 158;
+        float delta_y = 238 - nTargetY;
+        float ctrl_x = 0, ctrl_y = 0;
+
+        if (nTargetY > viewThres_y) // 进入摄像头控制，和ad一起判断
+        {
+            trackingBall = 1;
+
+            printf("-- cam track...\r\n");
+            enterCamTrackFlag = 1;
+            ctrl_y = xErrPID.getOutput(delta_x, 0);
+            ctrl_x = -yErrPID.getOutput(delta_y, 0);
+            if (ctrl_x < 0.3)
+            {
+                ctrl_x = 0.3;
+            }
+            if (fabs(ctrl_y) < ctrlThres_y) // 死区控制
+            {
+                ctrl_y = 0;
+            }
+            // if (fabs(ctrl_x) < ctrlThres_x) // 死区控制
+            // {
+
+            //     ctrl_x = 0.1;
+            // }
+            if (nTargetY > normalCorrThres)
+            {
+                ctrl_y = 0;
+            }
+            vel_cmd.linear.y = ctrl_y;
+            vel_cmd.linear.x = ctrl_x;
+        }
+        else
+        {
+            enterCamTrackFlag = 0;
+        }
+        printf("机器人运动速度( linear|x=%.2f y=%.2f, angular= %.2f )\n", ctrl_x, ctrl_y, vel_cmd.angular.z);
+    }
+    else
+    {
+        findBallOK = 0;
+    }*/

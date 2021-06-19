@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/simon/catkin_ws/src/race_package/include/my_utils.hpp
+opencv2/imgproc/imgproc.hpp
+-
+opencv2/core/core.hpp
+-
+
+/home/simon/catkin_ws/src/race_package/src/my_utils.cpp
+../include/my_utils.hpp
+/home/simon/catkin_ws/src/race_package/include/my_utils.hpp
+cmath
+-
+

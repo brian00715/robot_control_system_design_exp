@@ -1,0 +1,8 @@
+prefix=/home/simon/catkin_ws/install
+
+Name: wpb_cv_bringup
+Description: Description of wpb_cv_bringup
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

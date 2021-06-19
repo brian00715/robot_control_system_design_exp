@@ -1,0 +1,2 @@
+ad_sensor_package:mecnum_control_package:motor_control_package:omni_control_package:race_package:rf2o_laser_odometry:rgbd_launch:ros_astra_camera:ros_astra_launch:rplidar_ros:smkk_slam:teleop:velocity_control_package:wpb_cv/wpb_cv_bringup:wpb_cv/wpb_cv_local_planner:wpb_cv/wpb_cv_tutorials
+-DCATKIN_DEVEL_PREFIX=/home/simon/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/simon/catkin_ws/install -G Unix Makefiles
