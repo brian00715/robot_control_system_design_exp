@@ -1,4 +1,14 @@
 
+/**
+ * @file race.cpp
+ * @author smkk
+ * @brief 比赛核心源文件
+ * @version 1.2
+ * @date 2021-06
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include "../include/race.hpp"
 #include <opencv2/imgproc/imgproc.hpp>
 #include <opencv2/highgui/highgui.hpp>

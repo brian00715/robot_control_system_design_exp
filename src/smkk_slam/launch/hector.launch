@@ -1,7 +1,7 @@
 <launch>
   <!-- Arguments -->
   <arg name="model" default="robot" />
-  <arg name="configuration_basename" default="ifly_lds_2d.lua"/>
+  <arg name="configuration_basename" default="lidar_2d.lua"/>
   <!--<arg name="odom_frame" default="odom"/>-->
   <arg name="base_frame" default="base_footprint"/>
     <param name="map_update_interval" value="1.0"/>

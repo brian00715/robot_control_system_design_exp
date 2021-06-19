@@ -12,5 +12,8 @@
     "python.pythonPath": "/usr/bin/python2.7",
     "python.autoComplete.extraPaths": [
         "/opt/ros/indigo/lib/python2.7/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/opt/ros/indigo/lib/python2.7/dist-packages"
     ]
 }
